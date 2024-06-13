@@ -73,14 +73,7 @@ export default function TextTools() {
   }
 
 
-  let toClr = () => {
-    document.getElementById("valu").value = null;
-    document.getElementById("mal").innerHTML = "Text Parameters"
-
-    next("your result will be displayed here")
-    document.getElementById("colorbox").style.backgroundColor = "transparent"
-
-  }
+  
 
 
 
@@ -231,6 +224,17 @@ export default function TextTools() {
     navigator.clipboard.writeText(prev)
     document.getElementById("colorbox").style.backgroundColor = "#AF5FFF"
   }
+
+  let toClr = () => {
+    document.getElementById("valu").value = null;
+    document.getElementById("mal").innerHTML = "Text Parameters"
+
+    next("your result will be displayed here")
+    document.getElementById("colorbox").style.backgroundColor = "transparent"
+
+    hide()
+
+  }
   // text area takes no value from hook
 
   return (
@@ -248,7 +252,8 @@ export default function TextTools() {
             <div id='insights'>
 
             </div>
-            {prev}</div>
+
+            <div className='bkl-block'>{prev}</div></div>
         </div>
 
 
