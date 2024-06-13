@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import logo from './logo.png'
  let styles ={
   h1 :{"marginRight": "auto",
        "alignself": "center"}
@@ -18,10 +17,10 @@ function Intro() {
 
         
          <span>
-          <a>Home</a>
-          <a>Code</a>
-          <a>Docs</a>
-          <a>Blog</a>
+          {/* <a>Home</a> */}
+          <a href="https://github.com/Nishantjaryal/textwork">Repo</a>
+          {/* <a>Docs</a> */}
+          {/* <a>Blog</a> */}
         </span>
       </nav>
       

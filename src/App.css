@@ -236,7 +236,10 @@ border: none;
   flex-direction: row;
   margin: 20px 0 20px 0;
   border-radius: 10px;
-  gap: 10px
+  gap: 10px;
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .insights{

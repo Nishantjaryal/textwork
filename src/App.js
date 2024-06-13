@@ -157,8 +157,19 @@ export default function TextTools() {
       "isn't", "aren't", "wasn't", "weren't", "hasn't", "haven't",
       "hadn't", "couldn't", "wouldn't", "shouldn't", "I'll", "you'll",
       "he'll", "she'll", "we'll", "they'll", "I'd", "you'd", "he'd",
-      "she'd", "we'd", "they'd"
-    ]
+      "she'd", "we'd", "they'd", "actually", "again", "almost", "already",
+      "although", "always", "among", "another", "anyway", "around",
+      "because", "before", "behind", "besides", "between", "beyond",
+      "both", "certainly", "clearly", "definitely", "especially", "even",
+      "finally", "frequently", "however", "instead", "literally", "mainly",
+      "meanwhile", "merely", "mostly", "naturally", "nearly", "necessarily",
+      "nevertheless", "obviously", "particularly", "perhaps", "possibly",
+      "probably", "quickly", "rather", "really", "simply", "sometimes",
+      "specifically", "still", "strongly", "suddenly", "surely", "therefore",
+      "though", "throughout", "together", "totally", "truly", "ultimately",
+      "usually", "virtually"
+  ]
+  
 
 
 
